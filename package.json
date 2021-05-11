@@ -1,5 +1,5 @@
 {
-  "name": "weather-app",
+  "name": "WeatherApp",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KumarAmitt/Weather-App.git"
+    "url": "git+https://github.com/udberg/WeatherApp.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KumarAmitt/Weather-App/issues"
+    "url": "https://github.com/udberg/WeatherApp/issues"
   },
-  "homepage": "https://github.com/KumarAmitt/Weather-App#readme",
+  "homepage": "https://github.com/udberg/WeatherApp#readme",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^5.2.4",
