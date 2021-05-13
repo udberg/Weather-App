@@ -26,7 +26,7 @@ This project is a part of
 
  ## Screenshot
 
-![img](./)
+![img](./weather.png)
 
 ## Built With 🛠
 
