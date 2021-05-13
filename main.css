@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
-
+@import url(https://fonts.googleapis.com/css2?family=Krona+One&display=swap);
 body {
-  background: url("../img/winter.jpg");
+  background: url(08968daef114139423ad08374188be51.jpg);
   color: #fff;
   background-size: cover;
   overflow: hidden;
-  font-family: 'Krona One', sans-serif;
+  font-family: "Krona One", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -24,7 +23,7 @@ header {
   padding: 0.5em;
 }
 
-.location-form input[type="text"] {
+.location-form input[type=text] {
   border: none;
   padding: 0.5em 1em;
   border-radius: 0.5em;
@@ -33,11 +32,11 @@ header {
   font-weight: bold;
 }
 
-.location-form input[type="text"]:focus {
+.location-form input[type=text]:focus {
   outline: none;
 }
 
-.location-form input[type="submit"] {
+.location-form input[type=submit] {
   padding: 0.5em 1em;
   border: none;
   background-color: #fff;
@@ -50,6 +49,7 @@ header {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
   text-align: center;
   margin-top: 4em;
+  -webkit-backdrop-filter: blur(10px);
   backdrop-filter: blur(10px);
 }
 
@@ -112,12 +112,12 @@ header {
     margin-top: 6em;
   }
 
-  .location-form input[type="text"] {
+  .location-form input[type=text] {
     padding: 0.8em 1em;
     font-size: 1.1rem;
   }
 
-  .location-form input[type="submit"] {
+  .location-form input[type=submit] {
     padding: 0.8em 1em;
     font-size: 1.1rem;
   }
@@ -135,3 +135,5 @@ header {
     margin-bottom: 1em;
   }
 }
+
+/*# sourceMappingURL=main.css.map*/
