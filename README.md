@@ -22,7 +22,7 @@ This project is a part of
 
 ## Live Demo
 
-[Live demo]()
+[Live demo](https://udberg.github.io/WeatherApp/)
 
  ## Screenshot
 
