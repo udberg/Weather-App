@@ -3,7 +3,10 @@
 ![Microverse](https://img.shields.io/badge/-Microverse-6F23FF?style=for-the-badge)
 
 ## Description
+This is a simple Weather App to demonstrate the understanding of Asynchronous JavaScript.
 
+This project is a part of
+[THE ODIN PROJECT](https://www.theodinproject.com/paths/full-stack-ruby-on-rails/courses/javascript/lessons/weather-app) JavaScript Assignment.
 
 ## Library Directory 📙
 
