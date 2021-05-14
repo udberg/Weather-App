@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body {
+  background: url("../img/winter.jpg");
+  color: #fff;
+  background-size: cover;
+  overflow: hidden;
+  font-family: 'Krona One', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+header {
+  text-align: center;
+}
+
+.location-form {
+  margin-top: 8em;
+  padding: 0.5em;
+}
+
+.location-form input[type="text"] {
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 0.5em;
+  background-color: #fff;
+  width: 70%;
+  font-weight: bold;
+}
+
+.location-form input[type="text"]:focus {
+  outline: none;
+}
+
+.location-form input[type="submit"] {
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #fff;
+  border-radius: 0.5em;
+  width: 20%;
+  font-weight: bold;
+}
+
+.main {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8));
+  text-align: center;
+  margin-top: 4em;
+  backdrop-filter: blur(10px);
+}
+
+.weather-info {
+  padding: 1em;
+}
+
+.units {
+  text-align: right;
+  cursor: pointer;
+}
+
+.metric {
+  border: 1px solid #fff;
+  padding: 0.4em;
+}
+
+.metric:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.city {
+  margin-bottom: 0.5em;
+}
+
+.temp {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.temp img {
+  background-color: yellow;
+}
+
+.temp span {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-left: 0.2em;
+}
+
+.desc {
+  text-transform: capitalize;
+  margin-top: 0.5em;
+}
+
+.error {
+  padding: 1em;
+}
+
+.spinner {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .location-form {
+    margin-top: 6em;
+  }
+
+  .location-form input[type="text"] {
+    padding: 0.8em 1em;
+    font-size: 1.1rem;
+  }
+
+  .location-form input[type="submit"] {
+    padding: 0.8em 1em;
+    font-size: 1.1rem;
+  }
+
+  .main {
+    width: 60%;
+    margin-left: 20%;
+  }
+
+  .weather-info {
+    padding: 3em;
+  }
+
+  .city {
+    margin-bottom: 1em;
+  }
+}
